@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/title",
-      "handler": "title.find",
+      "path": "/about",
+      "handler": "about.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/title",
-      "handler": "title.update",
+      "path": "/about",
+      "handler": "about.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/title",
-      "handler": "title.delete",
+      "path": "/about",
+      "handler": "about.delete",
       "config": {
         "policies": []
       }

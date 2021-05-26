@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "titles",
+  "collectionName": "abouts",
   "info": {
-    "name": "About",
+    "name": "about",
     "description": ""
   },
   "options": {
@@ -12,20 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "info": {
-      "type": "text",
-      "required": true
-    },
     "title": {
       "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "text",
       "required": true
     },
     "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
@@ -35,7 +35,8 @@
     "stack": {
       "type": "component",
       "repeatable": true,
-      "component": "description.stack-item"
+      "component": "description.stack-item",
+      "required": true
     }
   }
 }
