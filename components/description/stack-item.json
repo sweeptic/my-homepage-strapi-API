@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_stack_stack_items",
+  "info": {
+    "name": "stack_item",
+    "icon": "braille",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
