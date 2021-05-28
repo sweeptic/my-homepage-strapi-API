@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "name": "Jobs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "job_title": {
+      "type": "string",
+      "required": true
+    },
+    "job_desc": {
+      "type": "text",
+      "required": true
+    },
+    "job_place": {
+      "type": "string",
+      "required": true
+    },
+    "job_from": {
+      "type": "string",
+      "required": true
+    },
+    "job_to": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
