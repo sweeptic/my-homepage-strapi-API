@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Languages",
+  "info": {
+    "name": "Languages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "language": {
+      "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
