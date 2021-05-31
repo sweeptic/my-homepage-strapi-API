@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Projects",
+  "info": {
+    "name": "Projects",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "stack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.stack-item",
+      "required": true
+    },
+    "success_date": {
+      "type": "string",
+      "required": true
+    },
+    "project_url": {
+      "type": "string",
+      "required": true
+    },
+    "github_url": {
+      "type": "string",
+      "required": true
+    },
+    "site_url": {
+      "type": "string",
+      "required": true
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
