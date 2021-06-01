@@ -32,11 +32,11 @@
       "type": "text",
       "required": true
     },
-    "source": {
+    "source_url": {
       "type": "string",
       "required": true
     },
-    "date": {
+    "success_date": {
       "type": "string",
       "required": true
     },
