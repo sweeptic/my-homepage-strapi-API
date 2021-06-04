@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "Courses",
+  "collectionName": "Books",
   "info": {
-    "name": "Courses",
+    "name": "Books",
     "description": ""
   },
   "options": {
@@ -24,11 +24,19 @@
       "required": true,
       "pluginOptions": {}
     },
-    "link": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "category": {
+    "success_date": {
+      "type": "string",
+      "required": true
+    },
+    "source_url": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
       "type": "string",
       "required": true
     },
