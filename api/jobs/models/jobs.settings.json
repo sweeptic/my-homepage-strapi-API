@@ -31,6 +31,14 @@
     "job_to": {
       "type": "string",
       "required": true
+    },
+    "job_company": {
+      "type": "string",
+      "required": true
+    },
+    "job_duration": {
+      "type": "string",
+      "required": true
     }
   }
 }

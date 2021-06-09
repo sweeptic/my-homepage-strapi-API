@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "Skills",
   "info": {
-    "name": "Skills"
+    "name": "Skills",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,7 +18,9 @@
     },
     "percentage": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "max": 100,
+      "min": 0
     }
   }
 }
