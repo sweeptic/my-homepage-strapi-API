@@ -16,10 +16,6 @@
       "type": "string",
       "required": true
     },
-    "info": {
-      "type": "text",
-      "required": true
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -36,6 +32,10 @@
       "type": "component",
       "repeatable": true,
       "component": "description.stack-item",
+      "required": true
+    },
+    "info": {
+      "type": "richtext",
       "required": true
     }
   }
