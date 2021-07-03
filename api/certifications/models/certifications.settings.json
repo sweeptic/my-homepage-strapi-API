@@ -44,6 +44,10 @@
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
     }
   }
 }
