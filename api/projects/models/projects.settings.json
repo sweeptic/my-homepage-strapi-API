@@ -58,6 +58,10 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
     }
   }
 }
